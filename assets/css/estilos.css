@@ -1,0 +1,846 @@
+
+/*nav-bar*/
+.navbar-brand{
+    font-size: 10px;
+    font-family: IBM Plex Serif;
+     src: url(fonts);
+     font-style: italic;
+     color: white ;
+    }
+.navbar-nav
+    {font-family: 'montserrat',sans-serif;
+    font-weight: 600;
+ 
+    }
+    header nav{
+    background-image: linear-gradient(to left, #8124be, #971dd8, #c18fe2);
+        border-radius: 20px;
+    }
+  
+    /*INDEX comienzo de paginas*/
+
+    .Hola{
+        font-family: 'montserrat',sans-serif;
+        font-size: 110px;
+        font-style: normal;
+        font-stretch: extra-condensed;
+        text-align: left;
+        text-transform: uppercase; 
+        font-weight:900;
+          }
+    
+        .Bienvenido{
+            font-family: 'montserrat',sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            text-transform: lowercase;
+        }
+       
+        .portfolio{
+            font-family: IBM Plex Serif;
+            src: url(fonts);
+            font-style: italic;
+            font-size: 70px;
+        }
+    
+        .PresentaciónIndex{
+            font-family: 'montserrat',sans-serif;
+            font-size: 30px;
+            letter-spacing: 10px;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight:300;
+        }
+        .click01{
+            font-family: IBM Plex Serif;
+            src: url(fonts);
+            font-style: italic;
+            font-size: 40px; 
+            font-weight: bold;
+        }
+        .epigrafeIndex{
+            font-family: 'montserrat',sans-serif;
+            font-size: 30px;
+            letter-spacing: 10px;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight: 700;
+           
+        }
+
+        .infoIndex{
+            padding: 100px;
+        }
+
+        .info_index_01{
+           padding: 20px;
+        }
+ /*imagenes*/
+
+  .imagenesIndex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.indexProyetos{
+height: 350px;
+padding: 30px;
+
+}
+  
+
+.fotoMia{
+
+  padding: 00px 00px 00px 100px
+}
+/*animaciones*/
+.indexProyetos:hover{
+  cursor: pointer;
+  transition: all 1s linear;
+  transform: scale(1.2);
+ 
+}
+
+/*newsletter de todas las paginas*/
+.newsletter{
+    padding: 50px
+}
+  .newsletter01{
+      font-family: 'montserrat',sans-serif;
+      font-size: 20px;
+      letter-spacing: 10px;
+      word-spacing: 5px; 
+      line-height: 30px;
+      text-align: justify;
+      font-weight: 700;
+
+  }
+
+  .newsletter02{
+      font-family: IBM Plex Serif;
+      src: url(fonts);
+      font-style: italic;
+      font-size: 40px; 
+      font-weight: bold;
+      
+  }
+
+  .newsletter03{
+      font-family: 'montserrat',sans-serif;
+      font-size: 20px;
+      letter-spacing: 10px;
+      word-spacing: 5px; 
+      line-height: 30px;
+      text-align: justify;
+      font-weight:300;
+
+  }
+
+  form input {
+      font-family: IBM Plex Serif;
+      src: url(fonts);
+      font-style: italic;
+      font-size: 14px; 
+      font-weight: bold;
+      color:lightslategray;
+      border-radius: 20px;
+
+  }
+
+  .formnewsletter{
+      font-family: 'montserrat',sans-serif;
+      font-size: 14px;
+      font-style:normal;
+      word-spacing: 5px; 
+      line-height: 30px;
+      text-align: justify;
+      font-weight:600;
+      border-radius: 40px;
+      padding: 5px;
+  }
+
+
+/*footer*/
+  footer img{
+      height: 35px;
+      
+  }
+  .flexbBoxfooter{
+      display: flex;
+      width: 100%;
+      height: 50px;
+      flex-direction: row;
+      justify-content:space-around;
+      align-items: center;
+      
+  }
+  footer{
+      background-image: linear-gradient(to left, #bc6ff1, #52057b, #bc6ff1);
+      border-radius: 20px;
+    
+  }
+
+/*pag01 acerca de mi*/
+  .titulosPrincipales{
+        font-family: 'montserrat',sans-serif;
+        font-size: 30px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 50px;
+        text-align: justify;
+        font-weight:900;
+        border-radius: 40px;
+        padding-left: 40px;
+  }
+
+  .mi{
+      font-family: IBM Plex Serif;
+      src: url(fonts);
+      font-style: italic;
+      font-size: 60px; 
+      font-weight: bold;
+    
+  }
+  .pag01Desc{
+      font-family: 'montserrat',sans-serif;
+      font-size: 15px;
+      letter-spacing: 5px;
+      word-spacing: 5px; 
+      line-height: 22px;
+      text-align: justify;
+      font-weight:300;
+      margin: 30px;
+  }
+  /*imagenes pag01*/
+
+    .flex_imagenes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+       
+    }
+    .fotopag01A{
+        height: 550px;
+        padding-top: 50px;
+    }
+    .fotopag01B{
+        height: 550px;
+        
+    }
+
+    /*tabla*/
+    table {
+        font-family: 'montserrat',sans-serif; 
+        color: lightslategrey;
+        font-weight: 300;
+        border-radius: 20px;
+        background-color: rgb(241, 239, 239);
+        padding: 10px;
+        margin-left: 700px;
+      
+    }
+    .colorentable{
+        font-family: IBM Plex Serif;
+        src: url(fonts);
+        font-style: italic;
+        font-size: 20px; 
+        font-weight: bold;
+        color: black;
+        font-weight: 800;
+    }
+    .TableLeft{
+        font-weight: 800;
+
+    }
+/*newsletter pag01*/
+    form{
+    font-family: 'montserrat',sans-serif; 
+    font-weight: 600;
+    }
+    form fieldset legend{
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .checkbok{
+        color:gray;
+        font-weight: 400;
+       
+    }
+  
+    fieldset{
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 200px;
+    
+    }
+
+/*pag.02 proyectos*/
+
+    .proyectos_pre{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px;
+    
+    }
+    .proyectos_img{
+        height: 450px;
+    }
+   .titulosSub{
+    font-family: 'montserrat',sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    word-spacing: 5px; 
+    line-height: 70px;
+    text-align: justify;
+    font-weight:900;
+    border-radius: 40px;
+    padding: 50px;
+    grid-area: titulo;
+   }
+
+    /*proyectos*/
+    .container_proyectos{
+        display: grid;
+        background-color: #F5F5F0;
+        grid: 0.2fr 0.5fr 0.3fr 0.4fr 0.4fr 0.6fr 0.6fr  0.4fr 0.05fr 0.4fr 0.4fr 0.5fr 0.4fr 0.2fr/ repeat(4,1fr);
+        grid-template-areas: 
+        "titulo . . ."
+        "parte01 parte01 parte01 parte01 " 
+         "circuito circuito circuito circuito"
+        "sonrisa sonrisa sonrisa sonrisa"
+        "dibujo dibujo dibujo dibujo"
+        "bolsa portabolsa portabolsa img_bolsa"
+        "bolsa portabolsa portabolsa img_bolsa"
+       
+        "recibidor recibidor recibidor recibidor"
+        "recibidor_montaje recibidor_montaje recibidor_montaje recibidor_montaje"
+        "recibidor_texto recibidor_texto recibidor_texto recibidor_texto "
+        "recibidor_calle recibidor_calle recibidor_calle recibidor_calle"
+        "recibidor_atras recibidor_atras mesa_de_trabajo mesa_de_trabajo"
+        "recibidor_atras_img recibidor_atras_img detalles_mesa detalles_mesa "
+        "carros carros mesa_zoom mesa_zoom"
+       
+
+
+        "footer footer footer footer"
+      ;
+    }
+    /*proyeco01*/
+    .alto_impacto_01{
+      
+        width: 400px;
+        padding: 10px;
+
+    }
+    .alto_impacto_02{
+        height: 100px;
+        padding: 10px;
+    } 
+    .alto_impacto_03{
+        width: 400px;
+    
+       padding: 10px;
+    }
+    .alto_impacto_04{
+        height: 600px;
+        
+    }
+    .flex_alto_impacto{
+        display: flex;
+        flex-wrap: wrap;
+        grid-area: parte01 ;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+   
+    }
+    .secuencia{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-self: center;
+        grid-area: circuito;
+        padding-top: 100px;
+        
+    }
+    .circuito{
+        height: 200px;
+     
+    
+    }
+
+    .logo_trans{
+        display: flex;
+        justify-self: center;
+        grid-area: sonrisa;
+        padding-top: 100px;
+    }
+    .logo_sonrisa{
+        height: 100px;
+    }
+
+    .circuito_completo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-self: center;
+        grid-area: dibujo;
+
+    }
+
+    .dibujo_circuito{
+        height: 150px;
+        padding: 10px;
+    }
+   
+     /*bolsas*/
+     .bolsas_vecinos{
+         display: flex;
+         flex-direction: column;
+         grid-area: bolsa;
+         background-color: white;
+         padding-left: 40px;
+         padding-right: 10px;
+         border-top-right-radius: 100px;
+         border-bottom-right-radius: 100px;
+     }
+     .bolsa{
+         width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+     }
+     .bolsa_texto01{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 70px;
+        text-align: justify;
+        font-weight:900;
+        border-radius: 40px;
+        color: #4D8063;
+       
+     }
+     .bolsa_texto02{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 30px;
+        text-align: justify;
+        font-weight:200;
+     }
+
+     /*portabolsas*/
+
+     .portabolsas{
+        display: flex;
+        flex-direction: column;
+        grid-area: portabolsa;
+        padding-left: 20px;
+
+     }
+
+     .portabolsas01{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 70px;
+        text-align: justify;
+        font-weight:900;
+        border-radius: 40px;
+        color: #4D8063;
+     }
+     .portabolsas02{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 30px;
+        text-align: justify;
+        font-weight:200;
+       
+     }
+
+     .portabolsas_img01{
+         width: 790px;
+         padding-left: 180px;
+     }
+     .portabolsas_img02{
+         grid-area: img_bolsa ;
+         width: 470px;
+     }
+
+     /*recibidor*/
+        .recibidor{
+            grid-area: recibidor;
+            display: flex;
+            flex-direction: row;  
+            justify-content: space-around;
+        }
+
+        .recibidor_titulo{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: center;
+        }
+        .mapa_recibidor{
+            height: 100px;
+            align-self: center
+        }
+
+        .recibidor01{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 70px;
+            text-align: justify;
+            font-weight:900;
+            border-radius: 40px;
+            color: #4D8063;
+            align-self: center
+        }
+        .recibidor02{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style:normal;
+        word-spacing: 5px; 
+        line-height: 30px;
+        text-align: justify;
+        font-weight:200;
+        align-self: center
+
+        }
+        /*montaje*/
+        .montajes_recibidor{
+           grid-area: recibidor_montaje;
+            display: flex;
+            justify-content: center;
+         
+        }
+        .montaje01{
+            width: 200px;
+       
+        }
+        .montaje03{
+            width: 650px;
+        
+        }
+        .montaje02{
+            width: 350px;
+        
+        }
+
+        .recibidor03{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight:350;
+            align-self: center;
+            grid-area: recibidor_texto;
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        /*recibidor calle*/
+        .recibidor_calle{
+            width: 1100px;
+            grid-area: recibidor_calle ;
+            display: flex;
+            justify-self: center;
+            padding: 20px;
+        }
+
+        /*recibidor atras*/
+        .recibidor_atras_completo{
+            grid-area: recibidor_atras;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+           
+        }
+
+        .recibidor_cooperativa_atras{
+            width: 600px;
+            grid-area: recibidor_atras_img;
+            justify-items: center;
+            justify-self: center;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        .detalle_recibidor{
+            width: 300px;
+            padding: 40px;
+            margin-left: 400px;
+           
+           
+        }
+        .titulo_recibidor_atras{
+            display: flex;
+            padding: 40px;
+        
+        
+        }
+        .recibidor_atras01{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 70px;
+            text-align: justify;
+            font-weight:900;
+            border-radius: 40px;
+            color: #4D8063;
+          
+
+        }
+        .recibidor_atras02{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight:200;
+            align-self: center;
+            padding-left: 20px;
+        }
+
+        /*carros*/
+        .carros{
+            grid-area:carros;
+        }
+        .carrito{
+            width: 650px;
+         
+        }
+        .carritos{
+            width: 250px;
+            padding-left: 40px;
+        }
+        .carros01{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 70px;
+            text-align: justify;
+            font-weight:900;
+            border-radius: 40px;
+            color: #4D8063;
+            padding-left: 40px;
+        }
+        .carros02{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight:200;
+            align-self: center;
+            padding-left: 60px;
+        }
+        /*mesa de trabajo*/
+
+        .mesa_de_trabajo{
+            grid-area: mesa_de_trabajo;
+            display: flex;
+            justify-self: center;
+            justify-items: center;
+            justify-content: center;
+
+        }
+        .img_mesa_de_trabajo{
+          height: 400px;
+         
+        }
+        .detalles_mesa{
+            grid-area: detalles_mesa;
+            display: flex;
+            padding-top: 60px;
+        }
+        .detalles_mesa_img{
+            height: 150px;
+            border-radius: 500px;
+            flex-direction: row;
+            justify-content: space-around;   
+        }
+
+        .mesa_zoom{
+            grid-area: mesa_zoom;
+         
+        }
+        .mesa_zoom01{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 70px;
+            text-align: justify;
+            font-weight:900;
+            border-radius: 40px;
+            color: #4D8063;
+            padding-left: 10px;
+        }
+        .mesa_zoom02{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-style:normal;
+            word-spacing: 5px; 
+            line-height: 30px;
+            text-align: justify;
+            font-weight:200;
+            align-self: center;
+            padding-left: 10px;
+        }
+        .mesa_zoom_img{
+            height: 600px;
+            margin-left: 150px;
+
+        }
+     
+
+     /*footer proyectos*/
+     
+     .flexbBoxfooter{
+         grid-area: footer;
+     }
+
+     /*pagina03 wallpapers*/
+    
+   
+        .flexWallpapers{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        }
+        .WP01{
+            height: 500px;
+        }
+        .WP02{
+            height: 500px;
+        }
+        .WP03{
+            height: 500px;
+        }
+        .WP04{
+            height:500px;
+        }
+        .WP05{
+            height: 500px;
+        }
+        .WP01:hover{
+            cursor: pointer;
+            transition: all 1s linear;
+            transform: scale(1.2);
+        }
+        .WP02:hover{
+            cursor: pointer;
+            transition: all 1s linear;
+            transform: scale(1.2);
+        }
+        .WP03:hover{
+            cursor: pointer;
+            transition: all 1s linear;
+            transform: scale(1.2);
+        }
+        .WP04:hover{
+            cursor: pointer;
+            transition: all 1s linear;
+            transform: scale(1.2);
+        }
+        .WP05:hover{
+            cursor: pointer;
+            transition: all 1s linear;
+            transform: scale(1.2);
+        }
+        
+            /*responsive*/
+
+            @media (min-width: 768px) {
+                .flexWallpapers{
+                    flex-direction: row
+                }
+                .titulosPrincipales{
+                    padding:none
+                }
+             }
+
+
+        /*pagina04 remeras e ilus*/
+        .flexRemeras{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+            flex-wrap: wrap;   
+        }
+      
+        .flexIlus{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .remera01{
+            width: 300px;
+
+        }
+        .remera02{
+            width: 300px;
+        }
+        .remera03{
+            width: 300px;
+        }
+        .remera04{
+            width: 300px;
+        }
+        .ilus01{
+            width: 300px;
+        }
+
+        @media (min-width: 768px) {
+            .remera01{
+                width: 400px;
+    
+            }
+            .remera02{
+                width: 400px;
+            }
+            .remera03{
+                width: 400px;
+            }
+            .remera04{
+                width: 400px;
+            }
+            .ilus01{
+                width: 400px;
+            }
+            .titulosPrincipales{
+                font-size: 60px; 
+                padding: 50px;
+            }
+         }
+    
+    

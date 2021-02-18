@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--keywords-->
+    <meta name="keywords"  content="portfolio, proyectos, modelado 3d, animaciones, ilustraciones">
+    <!--Metadescription-->
+    <meta name="portfolio" content="Trabajos ralizados en contexto universitario y de forma personal">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/scss/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Portfolio_inicio</title>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Camila Filippini</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./views/acerca_de_mi.html">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="./views/proyectos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Proyectos
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./views/proyectos.html">Alto Impacto</a>
+                        <a class="dropdown-item" href="./views/proyectos.html">Wearable</a>
+                        <a class="dropdown-item" href="./views/proyectos.html">Back to semantica</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/wallpapers.html">wallpapers</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./views/ilustraciones_dibujos_remeras.html">Ilustraciones & remeras</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
+        </header>
+        <!--presentación}-->
+    
+            <div class="infoIndex row">
+                <div class="info_index_01 col-6">
+                    <h2 class="Hola col-12 ">¡Hola!</h2>
+                
+                    <span class="Bienvenido col-8">Bienvenido a mi 
+                        <h3 class="portfolio"> portfolio </h3> 
+                    </span>
+                </div>
+                        <img class="fotoMia col-4" src="assets/img/index/fotos-7 copia.png">
+                    <h5 class="PresentaciónIndex col-12 ">Mi nombre es Camila y soy estudiante de diseño en UTDT. Haciendo <a href="./views/pag01.html" class="click01">click </a> aqui podras saber un poco mas de mi </H5>
+                        <br/>
+            </div>
+        
+                <!--imagenes&videos-->
+            
+            <ul class="imagenesIndex">
+            
+                <img class="indexProyetos" src="assets/img/index/pic-8.png"> <p class="epigrafeIndex">Ilustraciones</p>
+                <img class="indexProyetos"src="assets/img/index/pic-10.png"><p class="epigrafeIndex">Diseño de sistema</p>
+                <img class="indexProyetos"src="assets/img/index/pic-11.png" alt=""><p class="epigrafeIndex">Diseño de productos</p>
+                <!--<video class="indexProyetos"src="assets/img/index/Video 1 mejor calidad.mov" controls> </video><p class="epigrafeIndex">Animaciones</p>-->
+                </div>
+            
+            </ul>
+            
+                    <hr/>
+         
+    
+    <!--newsletter-->
+            <div class="newsletter">
+            <h3 class="newsletter01">subscribite a mi <div class="newsletter02">newsletter </div> </h3>
+            <p class="newsletter03">y enterate todo lo nuevo!</p>
+    
+                <form action=""> 
+                    
+                        <label for="nombre">Nombre:</label>
+                        <input Type="Text" class="form_input" id="nombre" name="Nombre"placeholder="nombre">
+                            <br/>
+                            <br/> 
+                        <label for="mail">Mail:</label>          
+                        <input Type="Email" class="form_input" id="email" email="email"placeholder="email">
+                            <br/><br/>
+                        <input class="formnewsletter  btn btn-outline-success" type="submit" value="Enviar">
+                            <br/> </br>
+                        <input class="formnewsletter btn btn-outline-warning" type="reset" value="Limpiar formulario">
+                    
+                    </form>
+                      
+            </div>
+        </div>
+        <hr/>
+        <!--footer-->
+    
+        <footer > 
+            <div class="footer__flex">
+              <img  class="footer__flex--img" src="./assets/img/pag01/footer (1).png" >
+              <img class="footer__flex--img" src="./assets/img/pag01/footer (2).png">
+              <img class="footer__flex--img" src="./assets/img/pag01/footer (3).png">
+            </div>
+          </footer>
+    </div>
+
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
+</body>
+</html>
